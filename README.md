@@ -9,24 +9,32 @@ For related repositories, please see:
 [analysis_release_001](https://github.com/emo-bon/analysis-results-cluster-01-crate): Bioinformatics pipeline outputs.
 
 
-## Step 1
+## Step 1:
+
+Download the metaGOflow results and rename the files. 
+
+## Step 2:
+
+Open the files in R and create the basic files. 
+
+The relevant script is EMOBON_metaGOflow.R
+
+## Step 3: 
+
+Rename the samples so that the will have the correct source_mat_ids.
+
+The relevant script is EMOBON_substitute_ids.R
+
+## Step 4:
 
 
-
-## Step 2
-
-
-## Step 3: Retrieve AphiaIDs for taxa
+Retrieve AphiaIDs for taxa
 
 While we have tried different approaches to retrieve the AphiaIDs for the taxonomic occurrences, the most complete and accurate one is to download the genbank_links Parquet file from [EDITO](https://browser.moregeo.it/external/minio.dive.edito.eu/oidc-sfooks/worms_stac/marine_taxonomy/worms_taxonomy_traits/worms_taxonomy_traits.json?.asset=asset-genbank_links_parquet) and use it to retrieve the AphiaIDs based on their corresponding NCBI Taxonomy IDs. 
 
 The relevant script is Retrieve_AphiaIDs_taxonRanks.R
 
-
-## Step 4
-
-
-## Step 5
+## Step 5:
 
 
 
