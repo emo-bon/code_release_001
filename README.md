@@ -30,6 +30,9 @@ Retrieve AphiaIDs for taxa
 
 While we have tried different approaches to retrieve the AphiaIDs for the taxonomic occurrences, the most complete and accurate one is to download the genbank_links Parquet file from [EDITO](https://browser.moregeo.it/external/minio.dive.edito.eu/oidc-sfooks/worms_stac/marine_taxonomy/worms_taxonomy_traits/worms_taxonomy_traits.json?.asset=asset-genbank_links_parquet) and use it to retrieve the AphiaIDs based on their corresponding NCBI Taxonomy IDs. 
 
+Other approaches are to query WikiData and then WoRMS for the NCBI Taxonomy IDs. 
+
+
 The relevant script is Retrieve_AphiaIDs_taxonRanks.R
 
 ## Step 5:
