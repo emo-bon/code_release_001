@@ -15,15 +15,13 @@ Download the metaGOflow results and rename the files.
 
 ## Step 2:
 
-Open the files in R and create the basic files. 
+Open the files in R and create the basic files. In this script, you all also rename the samples so that the will have the correct source_mat_ids.
 
 The relevant script is EMOBON_metaGOflow.R
 
 ## Step 3: 
 
-Rename the samples so that the will have the correct source_mat_ids.
 
-The relevant script is EMOBON_substitute_ids.R
 
 ## Step 4:
 
